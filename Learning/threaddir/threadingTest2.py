@@ -12,7 +12,8 @@ class MyThreading(threading.Thread):
 		x = 0
 		global  id,a,lock
 		while id<500:
-			id = id+1
+			with lock:
+				id = id+1
 			lock.acquire()
 			a += 1
 			lock.release()
