@@ -2,12 +2,17 @@ import time, threading
 
 # 假定这是你的银行存款:
 balance = 0
+lock = threading.Lock()
 
 def change_it(n):
     # 先存后取，结果应该为0:
     global balance
+
+    global lock
+    lock.acquire()
     balance = balance + n
     balance = balance - n
+    lock.release()
 
 def run_thread(n):
     for i in range(100000):
