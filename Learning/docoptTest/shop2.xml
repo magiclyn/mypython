@@ -1,0 +1,378 @@
+<?xml version="1.0" standalone="yes"?>
+
+<!--
+sshop - saleOther 特殊处理 定义类型 1：红钻 2:金币 3:蓝钻
+
+-->
+<RECORDS1>
+<shop  mall="role" name="All"  desc="全部" sale="" buy="0x1,0x2,0x4" excludeSale="0x008,0x400">
+	<sshop name="All" desc="全部">
+		<one  name="AllGoods" desc="" hide="1"/>
+		<one  name="New" desc="新品" type="" sale="0x1"/>
+		<one  name="All" desc="全部"  type="" />
+		<one  name="Cloth" desc="时装" type="1-1-0" />
+		<one  name="Beauty" desc="饰品" type="1-2-0" />
+		<one  name="Props" desc="道具" type="3-0-0,4-4-0" />
+	</sshop>
+	<sshop name="Cloth" desc="时装" type="1-1">
+		<one  name="AllGoods" desc="" type="1-1-0" hide="1"/>
+		<one  name="New" desc="新品" type="1-1-0"  sale="0x1"/>
+		<one  name="Hair" desc="头发" type="1-1-1" />
+		<one  name="Jacket" desc="上装" type="1-1-2" />
+		<one  name="Pants" desc="下装" type="1-1-3" />
+		<one  name="Shoe" desc="鞋子" type="1-1-4" />
+		<one  name="Glove" desc="手套" type="1-1-6" />
+		<one  name="Suit" desc="套装" type="1-1-5" />
+	</sshop>
+	<sshop name="Beauty" desc="饰品" type="1-2">
+		<one  name="AllGoods" desc="" type="1-2-0" hide="1"/>
+		<one  name="New"  desc="新品" type="1-2-0"  sale="0x1"/>
+		<one  name="Exp" desc="表情" type="1-2-1,1-2-2" />
+		<one  name="Head" desc="头部" type="1-2-3" />
+		<one  name="Handy" desc="手部" type="1-2-7,1-2-8" />
+		<one  name="Body" desc="身体" type="1-2-9,1-2-10,1-2-11" />
+		<one  name="Sprite" desc="精灵" type="1-2-12,1-2-13" />
+		<one  name="Ring" desc="戒指" type="1-2-14" />
+		<one  name="Wing" desc="翅膀" type="1-2-15" />
+		<one  name="Plane" desc="飞骑" type="1-2-16" />
+	</sshop>
+	<sshop name="Props" desc="道具" type="3-0,4-4">
+		<one  name="AllGoods" desc="" type="3-0-0,4-4-0" hide="1"/>
+		<one  name="New"  desc="新品"  type="3-0-0,4-4-0"  sale="0x1"/>
+		<one  name="Treasure"  desc="宝箱"  type="3-1-0" />
+		<one  name="ActionCard" desc="动作卡" type="3-4-8" />
+		<one  name="FunctionCard" desc="功能卡" type="3-2-0,3-3-0,3-4-1,3-4-2,3-4-3,3-4-4,3-4-5,3-4-6,3-4-7" />
+		<one  name="Material"  desc="材料"  type="4-4-0" />
+	</sshop>
+	<sshop name="Lovers" desc="情侣" sale="0x2000" >
+		<one  name="AllGoods" desc="" type="0-0-0" lover="1" hide="1"/>
+		<one  name="New" desc="新品"  type="0-0-0" lover="1" sale="0x1" />
+		<one  name="Cloth" desc="时装" type="1-1-0" />
+		<one  name="Beauty" desc="饰品" type="1-2-0" />
+		<one  name="Props" desc="道具"  type="3-0-0,4-4-0" />
+	</sshop>
+	<sshop name="Subject" desc="主题"  >
+		<one  name="sub1" desc="夏日清凉" subject="1"/>
+	</sshop>
+	<sshop name="Pet" desc="精灵"  type="3-8">
+		<one  name="AllGoods" desc="" type="3-0-0" hide="1"/>
+		<one  name="All" desc="全部"  type="" />
+		<one  name="PetEgg" desc="宠物蛋" type="3-8-1" />
+		<one  name="PetItem" desc="道具" type="3-8-2" />
+		<one  name="PetSkillBook" desc="技能书" type="3-8-3" />
+	</sshop>
+</shop>
+<shop  mall="role" name="Advance" desc="高级" sale="" buy="0x1,0x2,0x4" saleOther="3" excludeSale="0x008,0x400">
+	<sshop name="All" >
+		<one  name="AllGoods" desc="" type="1-0-0,2-0-0,3-0-0,4-4-0"/>
+		<one  name="New" desc="新品" type="1-0-0,2-0-0,3-0-0,4-4-0"  sale="0x1"/>
+		<one  name="Cloth" desc="时装" type="1-1-0" />
+		<one  name="Beauty" desc="饰品" type="1-2-0" />
+		<one  name="Props" desc="道具" type="3-0-0,4-4-0" />
+	</sshop>
+	<sshop name="Cloth" type="1-1">
+		<one  name="AllGoods"  type="1-1-0"/>
+		<one  name="New"  type="1-1-0"  sale="0x1"/>
+		<one  name="Hair"  type="1-1-1" />
+		<one  name="Jacket"  type="1-1-2" />
+		<one  name="Pants"  type="1-1-3" />
+		<one  name="Shoe"  type="1-1-4" />
+		<one  name="Glove"  type="1-1-6" />
+		<one  name="Suit"  type="1-1-5" />
+	</sshop>
+	<sshop name="Beauty" type="1-2">
+		<one  name="AllGoods"   type="1-2-0"/>
+		<one  name="New"   type="1-2-0"  sale="0x1"/>
+		<one  name="Exp"  type="1-2-1,1-2-2" />
+		<one  name="Head"  type="1-2-3" />
+		<one  name="Handy"  type="1-2-7,1-2-8" />
+		<one  name="Body"  type="1-2-9,1-2-10,1-2-11" />
+		<one  name="Sprite"  type="1-2-12,1-2-13" />
+		<one  name="Ring"  type="1-2-14" />
+		<one  name="Wing"  type="1-2-15" />
+		<one  name="Plane"  type="1-2-16" />
+	</sshop>
+	<sshop name="Props" type="3-0,4-4">
+		<one  name="AllGoods"    type="3-0-0,4-4-0"/>
+		<one  name="New"    type="3-0-0,4-4-0"  sale="0x1"/>
+		<one  name="Treasure"    type="3-1-0" />
+		<one  name="ActionCard"  type="3-4-8" />
+		<one  name="FunctionCard"  type="3-2-0,3-3-0,3-4-1,3-4-2,3-4-3,3-4-4,3-4-5,3-4-6,3-4-7" />
+		<one  name="Material"    type="4-4-0" />
+	</sshop>
+	<sshop name="Lovers" desc="情侣" sale="0x2000" >
+		<one  name="AllGoods" desc="" type="0-0-0" lover="1"/>
+		<one  name="New" desc="新品"  type="0-0-0" lover="1" sale="0x1" />
+		<one  name="Cloth" desc="时装" type="1-1-0" />
+		<one  name="Beauty" desc="饰品" type="1-2-0" />
+		<one  name="Props" desc="道具"  type="3-0-0,4-4-0" />
+	</sshop>
+</shop>
+<shop  mall="role" name="Normal"  sale="" buy="0x1,0x2,0x4" saleOther="1,2" excludeSale="0x008,0x400">
+	<sshop name="All" >
+		<one  name="AllGoods"  type="1-0-0,2-0-0,3-0-0,4-4-0" />
+		<one  name="New"  type="1-0-0,2-0-0,3-0-0,4-4-0"  sale="0x1"/>
+		<one  name="Cloth"  type="1-1-0" />
+		<one  name="Beauty"  type="1-2-0" />
+		<one  name="Props"  type="3-0-0,4-4-0" />
+		<one  name="Lovers" desc="情侣" sale="0x2000" />
+	</sshop>
+	<sshop name="Score"  saleOther="1">
+		<one  name="AllGoods"  type="1-0-0,2-0-0,3-0-0,4-4-0"/>
+		<one  name="New"  type="1-0-0,2-0-0,3-0-0,4-4-0"  sale="0x1"/>
+		<one  name="Cloth"  type="1-1-0" />
+		<one  name="Beauty"  type="1-2-0" />
+		<one  name="Props"  type="3-0-0,4-4-0" />
+		<one  name="Lovers" desc="情侣" sale="0x2000" />
+	</sshop>
+	<sshop name="Coin" saleOther="2">
+		<one  name="AllGoods"  type="1-0-0,2-0-0,3-0-0,4-4-0" />
+		<one  name="New"  type="1-0-0,2-0-0,3-0-0,4-4-0"  sale="0x1"/>
+		<one  name="Cloth"  type="1-1-0" />
+		<one  name="Beauty"  type="1-2-0" />
+		<one  name="Props"  type="3-0-0,4-4-0" />
+		<one  name="Lovers" desc="情侣" sale="0x2000" />
+	</sshop>
+</shop>
+<shop  mall="role" name="Activity"  sale="0x04000000" buy="0x1,0x2,0x4">
+	<sshop name="All" >
+		<one  name="AllGoods"  type="1-0-0,2-0-0,3-0-0,4-4-0" />
+		<one  name="All"  type="1-0-0,2-0-0,3-0-0,4-4-0"/>
+		<one  name="Cloth"  type="1-1-0" />
+		<one  name="Beauty"  type="1-2-0" />
+		<one  name="Props"  type="3-0-0,4-4-0" />
+	</sshop>
+	<sshop name="Cloth" type="1-1">
+		<one  name="AllGoods"  type="1-1-0"/>
+		<one  name="All"  type="1-1-0" />
+		<one  name="Hair"  type="1-1-1" />
+		<one  name="Jacket"  type="1-1-2" />
+		<one  name="Pants"  type="1-1-3" />
+		<one  name="Shoe"  type="1-1-4" />
+		<one  name="Glove"  type="1-1-6" />
+		<one  name="Suit"  type="1-1-5" />
+	</sshop>
+	<sshop name="Beauty" type="1-2">
+		<one  name="AllGoods"   type="1-2-0"/>
+		<one  name="All"   type="1-2-0"/>
+		<one  name="Exp"  type="1-2-1,1-2-2" />
+		<one  name="Head"  type="1-2-3" />
+		<one  name="Handy"  type="1-2-7,1-2-8" />
+		<one  name="Body"  type="1-2-9,1-2-10,1-2-11" />
+		<one  name="Sprite"  type="1-2-12,1-2-13" />
+		<one  name="Ring"  type="1-2-14" />
+		<one  name="Wing"  type="1-2-15" />
+		<one  name="Plane"  type="1-2-16" />
+	</sshop>
+	<sshop name="Props" type="3-0,4-4">
+		<one  name="AllGoods"    type="3-0-0,4-4-0"/>
+		<one  name="All"    type="3-0-0,4-4-0" />
+		<one  name="Treasure"    type="3-1-0" />
+		<one  name="ActionCard"  type="3-4-8" />
+		<one  name="FunctionCard"  type="3-2-0,3-3-0,3-4-1,3-4-2,3-4-3,3-4-4,3-4-5,3-4-6,3-4-7" />
+		<one  name="Material"    type="4-4-0" />
+	</sshop>
+	<sshop name="Lovers" desc="情侣" sale="0x2000" >
+		<one  name="AllGoods" desc="" type="0-0-0" lover="1"/>
+		<one  name="All" desc="全部"  type="0-0-0" lover="1"  />
+		<one  name="Cloth" desc="时装" type="1-1-0" />
+		<one  name="Beauty" desc="饰品" type="1-2-0" />
+		<one  name="Props" desc="道具"  type="3-0-0,4-4-0" />
+	</sshop>
+</shop>
+<shop  mall="role" name="NoSale"  sale="0x008,0x400" buy="0x1,0x2,0x4">
+	<sshop name="All" >
+		<one  name="AllGoods"  type="1-0-0,2-0-0,3-0-0,4-4-0"/>
+		<one  name="All"  type="1-0-0,2-0-0,3-0-0,4-4-0"/>
+		<one  name="Cloth"  type="1-1-0" />
+		<one  name="Beauty"  type="1-2-0" />
+		<one  name="Props"  type="3-0-0,4-4-0" />
+	</sshop>
+	<sshop name="Cloth" type="1-1">
+		<one  name="AllGoods"  type="1-1-0"/>
+		<one  name="All"  type="1-1-0" />
+		<one  name="Hair"  type="1-1-1" />
+		<one  name="Jacket"  type="1-1-2" />
+		<one  name="Pants"  type="1-1-3" />
+		<one  name="Shoe"  type="1-1-4" />
+		<one  name="Glove"  type="1-1-6" />
+		<one  name="Suit"  type="1-1-5" />
+	</sshop>
+	<sshop name="Beauty" type="1-2">
+		<one  name="AllGoods"   type="1-2-0"  />
+		<one  name="All"   type="1-2-0" />
+		<one  name="Exp"  type="1-2-1,1-2-2" />
+		<one  name="Head"  type="1-2-3" />
+		<one  name="Handy"  type="1-2-7,1-2-8" />
+		<one  name="Body"  type="1-2-9,1-2-10,1-2-11" />
+		<one  name="Sprite"  type="1-2-12,1-2-13" />
+		<one  name="Ring"  type="1-2-14" />
+		<one  name="Wing"  type="1-2-15" />
+		<one  name="Plane"  type="1-2-16" />
+	</sshop>
+	<sshop name="Props" type="3-0,4-4">
+		<one  name="AllGoods"    type="3-0-0,4-4-0"/>
+		<one  name="All"    type="3-0-0,4-4-0" />
+		<one  name="Treasure"    type="3-1-0" />
+		<one  name="ActionCard"  type="3-4-8" />
+		<one  name="FunctionCard"  type="3-2-0,3-3-0,3-4-1,3-4-2,3-4-3,3-4-4,3-4-5,3-4-6,3-4-7" />
+		<one  name="Material"    type="4-4-0" />
+	</sshop>
+	<sshop name="Lovers" desc="情侣" sale="0x2000" >
+		<one  name="AllGoods" desc="" type="0-0-0" lover="1"/>
+		<one  name="All" desc="全部"  type="0-0-0" lover="1" />
+		<one  name="Cloth" desc="时装" type="1-1-0" />
+		<one  name="Beauty" desc="饰品" type="1-2-0" />
+		<one  name="Props" desc="道具"  type="3-0-0,4-4-0" />
+	</sshop>
+</shop>
+
+<shop  mall="wedding" name="All" desc="全部"  sale="0x10000000" buy="0x1,0x2,0x4">
+	<sshop name="All" desc="全部" >
+		<one  name="AllGoods" desc="全部" type="1-0-0,2-0-0,3-0-0,4-4-0" />
+		<one  name="All" desc="全部" type="1-0-0,2-0-0,3-0-0,4-4-0" />
+		<one  name="Cloth" desc="服装"  type="1-1-0" />
+		<one  name="Beauty" desc="饰品"  type="1-2-0" />
+	</sshop>
+</shop>
+<shop  mall="bag" name="All" desc="全部">
+	<sshop name="All" desc="全部">
+		<one  name="All" desc="全部" type="1-0-0,2-0-0,3-0-0,4-4-0" />
+		<one  name="Cloth" desc="服装" type="1-1-0" />
+		<one  name="Beauty" desc="饰品" type="1-2-0" />
+		<one  name="Props" desc="道具" type="3-0-0,4-4-0" />
+	</sshop>
+	<sshop name="Cloth" desc="服装">
+		<one  name="All" desc="全部" type="1-1-0" />
+		<one  name="Hair" desc="头发" type="1-1-1" />
+		<one  name="Jacket" desc="上衣" type="1-1-2" />
+		<one  name="Pants" desc="裤子" type="1-1-3" />
+		<one  name="Shoe" desc="鞋子" type="1-1-4" />
+		<one  name="Glove" desc="手部" type="1-1-6" />
+		<one  name="Suit" desc="套装" type="1-1-5" />
+	</sshop>
+	<sshop name="Beauty" desc="饰品">
+		<one  name="All" desc="全部" type="1-2-0" />
+		<one  name="Exp" desc="表情" type="1-2-1,1-2-2" />
+		<one  name="Head" desc="头部" type="1-2-3" />
+		<one  name="Handy" desc="手部" type="1-2-7,1-2-8" />
+		<one  name="Body" desc="身体" type="1-2-9,1-2-10,1-2-11" />
+		<one  name="Sprite" desc="精灵" type="1-2-12,1-2-13" />
+		<one  name="Ring" desc="戒指" type="1-2-14" />
+		<one  name="Wing" desc="翅膀" type="1-2-15" />
+		<one  name="Plane" desc="飞骑" type="1-2-16" />
+	</sshop>
+	<sshop name="Props" desc="道具">
+		<one  name="All"  desc="全部"   type="3-0-0,4-4-0" />
+		<one  name="Treasure"  desc="宝箱"  type="3-1-0" />
+		<one  name="ActionCard" desc="动作卡" type="3-4-8" />
+		<one  name="FunctionCard" desc="功能卡" type="3-2-0,3-3-0,3-4-1,3-4-2,3-4-3,3-4-4,3-4-5,3-4-6,3-4-7" />
+		<one  name="Material"  desc="材料"  type="4-4-0" />
+	</sshop>
+	<sshop name="Lovers" sale="0x2000" desc="情侣">
+		<one  name="All"   type="0-0-0" lover="1" />
+	</sshop>
+	<sshop name="OutOffTime" desc="已过期">
+		<one  name="All" type="0-0-0"  param="outofftime" />
+	</sshop>
+</shop>
+<shop  mall="guild" name="All" desc="全部" buy="0x8">
+	<sshop name="All" desc="全部">
+		<one  name="AllGoods" desc="全部" type="1-0-0,2-0-0,3-0-0,4-4-0" />
+		<one  name="All" desc="全部" type="1-0-0,2-0-0,3-0-0,4-4-0" />
+		<one  name="Cloth" desc="服装" type="1-1-0" />
+		<one  name="Beauty" desc="饰品" type="1-2-0" />
+		<one  name="Props" desc="道具" type="1-3-0" />
+	</sshop>
+	<sshop name="Cloth" desc="服装">
+		<one  name="AllGoods" desc="全部" type="1-1-0" />
+		<one  name="All" desc="全部" type="1-1-0" />
+		<one  name="Hair" desc="头发" type="1-1-1" />
+		<one  name="Jacket" desc="上衣" type="1-1-2" />
+		<one  name="Pants" desc="裤子" type="1-1-3" />
+		<one  name="Shoe" desc="鞋子" type="1-1-4" />
+		<one  name="Glove" desc="手部" type="1-1-6" />
+		<one  name="Suit" desc="套装" type="1-1-5" />
+	</sshop>
+	<sshop name="Beauty" type="1-2">
+		<one  name="AllGoods"   type="1-2-0" />
+		<one  name="All"   type="1-2-0" />
+		<one  name="Exp"  type="1-2-1,1-2-2" />
+		<one  name="Head"  type="1-2-3" />
+		<one  name="Handy"  type="1-2-7,1-2-8" />
+		<one  name="Body"  type="1-2-9,1-2-10,1-2-11" />
+		<one  name="Sprite"  type="1-2-12,1-2-13" />
+		<one  name="Ring"  type="1-2-14" />
+		<one  name="Wing"  type="1-2-15" />
+		<one  name="Plane"  type="1-2-16" />
+	</sshop>
+	<sshop name="Props" type="3-0,4-4">
+		<one  name="AllGoods"    type="3-0-0,4-4-0" />
+		<one  name="All"    type="3-0-0,4-4-0" />
+		<one  name="Treasure"    type="3-1-0" />
+		<one  name="ActionCard"  type="3-4-8" />
+		<one  name="FunctionCard"  type="3-2-0,3-3-0,3-4-1,3-4-2,3-4-3,3-4-4,3-4-5,3-4-6,3-4-7" />
+		<one  name="Material"    type="4-4-0" />
+	</sshop>
+</shop>
+<shop  mall="repu" name="All" desc="全部" buy="0x10">
+	<sshop name="All" desc="全部">
+		<one  name="AllGoods" desc="全部" type="1-0-0,2-0-0,3-0-0,4-4-0" />
+		<one  name="All" desc="全部" type="1-0-0,2-0-0,3-0-0,4-4-0" />
+		<one  name="Cloth" desc="服装" type="1-1-0" />
+		<one  name="Beauty" desc="饰品" type="1-2-0" />
+		<one  name="Props" desc="道具" type="1-3-0" />
+	</sshop>
+	<sshop name="Cloth" desc="服装">
+		<one  name="AllGoods" desc="全部" type="1-1-0" />
+		<one  name="All" desc="全部" type="1-1-0" />
+		<one  name="Hair" desc="头发" type="1-1-1" />
+		<one  name="Jacket" desc="上衣" type="1-1-2" />
+		<one  name="Pants" desc="裤子" type="1-1-3" />
+		<one  name="Shoe" desc="鞋子" type="1-1-4" />
+		<one  name="Glove" desc="手部" type="1-1-6" />
+		<one  name="Suit" desc="套装" type="1-1-5" />
+	</sshop>
+	<sshop name="Beauty" type="1-2">
+		<one  name="AllGoods"   type="1-2-0" />
+		<one  name="All"   type="1-2-0" />
+		<one  name="Exp"  type="1-2-1,1-2-2" />
+		<one  name="Head"  type="1-2-3" />
+		<one  name="Handy"  type="1-2-7,1-2-8" />
+		<one  name="Body"  type="1-2-9,1-2-10,1-2-11" />
+		<one  name="Sprite"  type="1-2-12,1-2-13" />
+		<one  name="Ring"  type="1-2-14" />
+		<one  name="Wing"  type="1-2-15" />
+		<one  name="Plane"  type="1-2-16" />
+	</sshop>
+	<sshop name="Props" type="3-0,4-4">
+		<one  name="AllGoods"    type="3-0-0,4-4-0" />
+		<one  name="All"    type="3-0-0,4-4-0" />
+		<one  name="Treasure"    type="3-1-0" />
+		<one  name="ActionCard"  type="3-4-8" />
+		<one  name="FunctionCard"  type="3-2-0,3-3-0,3-4-1,3-4-2,3-4-3,3-4-4,3-4-5,3-4-6,3-4-7" />
+		<one  name="Material"    type="4-4-0" />
+	</sshop>
+</shop>
+<shop  mall="experience" name="All"  desc="全部" sale="" buy="0x1,0x2,0x4" excludeSale="0x008,0x400">
+	<sshop name="Cloth" desc="时装" type="1-1">
+		<one  name="AllGoods" desc="" type="1-1-0" hide="1"/>
+		<one  name="All" desc="全部" type="1-1-0" />
+		<one  name="Hair" desc="头发" type="1-1-1" />
+		<one  name="Jacket" desc="上装" type="1-1-2" />
+		<one  name="Pants" desc="下装" type="1-1-3" />
+		<one  name="Shoe" desc="鞋子" type="1-1-4" />
+		<one  name="Glove" desc="手套" type="1-1-6" />
+		<one  name="Suit" desc="套装" type="1-1-5" />
+	</sshop>
+</shop>
+<shop  mall="love" name="All" desc="全部">
+	<sshop name="All" desc="全部" type="3-6">
+		<one  name="t1" desc="婚照相框" type="3-6-1-1" />
+		<one  name="t3" desc="相框装饰" type="3-6-1-3" />
+		<one  name="t4" desc="证书样式" type="3-6-1-4" />
+		<one  name="t5" desc="证书装饰" type="3-6-1-5" />
+		<one  name="t6" desc="整体特效" type="3-6-1-6" />
+	</sshop>
+</shop>
+</RECORDS>

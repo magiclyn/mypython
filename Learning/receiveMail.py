@@ -127,4 +127,4 @@ print_info(msg)
 # 可以根据邮件索引号直接从服务器删除邮件:
 # server.dele(index)
 # 关闭连接:
-server.quit()
+server.quit() 
